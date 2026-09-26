@@ -95,8 +95,8 @@
       "
     >
       <div
-  class="max-w-[600px] flex flex-col items-center gap-[1.1rem] opacity-0 translate-x-[100px] animate-slideRight mb-15"
->
+        class="max-w-[600px] flex flex-col items-center gap-[1.1rem] opacity-0 translate-x-[100px] animate-slideRight mb-15"
+      >
         <!-- Divider -->
         <div class="relative w-[90px] h-px bg-cream">
           <span
@@ -198,7 +198,7 @@
       <!-- =====================================================
          PEMBUKAAN
     ====================================================== -->
- <div
+      <div
         class="max-w-[700px] mx-auto py-8 px-6 text-center bg-white rounded-2xl opacity-0 translate-y-10 transition-all duration-[800ms] ease"
         data-scroll="scroll-anim"
       >
@@ -213,8 +213,163 @@
           <b class="font-alef font-bold">
             Ngenteg Linggih lan Mepandes (Potong Gigi)
           </b>
-          yang akan kami laksanakan.
+          yang akan kami laksanakan pada :
         </p>
+
+        <section
+          id="tanggal-acara"
+          class="py-12 px-6 opacity-0 translate-x-[50px] transition-all duration-[800ms] ease"
+          data-scroll="scroll-right"
+        >
+          <div class="max-w-[560px] mx-auto text-center">
+            <h2 class="font-bad text-[1.8rem] text-dark mb-3">
+              Tanggal &amp; Waktu Acara
+            </h2>
+
+            <div class="relative w-[90px] h-px bg-mid mx-auto mb-8">
+              <span
+                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-mid text-[13px] px-2 bg-cream"
+              >
+                ✦
+              </span>
+            </div>
+
+            <!-- Acara -->
+            <div class="flex justify-center gap-6 flex-wrap mb-6">
+              <div
+                class="flex items-center gap-3 bg-white border border-light rounded-[14px] py-3 px-5 min-w-[190px]"
+              >
+                <span
+                  data-target="12"
+                  class="inline-block font-bad text-[2.2rem] text-mid leading-none opacity-0 scale-[0.7] transition-all duration-500"
+                >
+                  0
+                </span>
+
+                <div class="text-left">
+                  <p class="font-alegreya text-[0.85rem] text-dark">
+                    Oktober 2026
+                  </p>
+
+                  <p class="font-alegreya font-bold text-base text-dark">
+                    Mepandes
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="flex items-center gap-3 bg-white border border-light rounded-[14px] py-3 px-5 min-w-[190px]"
+              >
+                <span
+                  data-target="15"
+                  class="inline-block font-bad text-[2.2rem] text-mid leading-none opacity-0 scale-[0.7] transition-all duration-500"
+                >
+                  0
+                </span>
+
+                <div class="text-left">
+                  <p class="font-alegreya text-[0.85rem] text-dark">
+                    Oktober 2026
+                  </p>
+
+                  <p class="font-alegreya font-bold text-base text-dark">
+                    Ngenteg Linggih
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Jam -->
+            <p
+              class="inline-flex items-center gap-2 font-alef text-base font-semibold tracking-[0.04em] text-dark bg-white border-[1.5px] border-light rounded-full py-[10px] px-[22px] shadow-[0_4px_12px_rgba(112,109,84,0.15)] mx-auto mb-8"
+            >
+              <i
+                class="bi bi-clock text-white bg-gradient-to-br from-mid to-dark w-[25px] h-[25px] inline-flex items-center justify-center rounded-full text-[0.9rem] animate-denyutJam"
+              ></i>
+
+              09.00 WITA – Selesai
+            </p>
+
+            <!-- Countdown -->
+            <div
+              id="countdown"
+              class="flex justify-center gap-3 flex-wrap mb-3 opacity-0 scale-[0.9] transition-all duration-[800ms] ease"
+              data-scroll="scroll-zoom"
+            >
+              <div
+                class="bg-gradient-to-br from-mid to-dark text-white rounded-xl py-[0.9rem] px-[0.6rem] min-w-[68px] shadow-[0_4px_10px_rgba(0,0,0,0.2)] max-[400px]:min-w-[58px] max-[400px]:py-[0.7rem] max-[400px]:px-[0.4rem]"
+              >
+                <span
+                  id="cd-hari"
+                  class="block font-alegreya font-bold text-[1.8rem] leading-none max-[400px]:text-[1.4rem]"
+                >
+                  00
+                </span>
+
+                <span
+                  class="block text-[0.7rem] tracking-[0.06em] mt-1 opacity-85"
+                >
+                  Hari
+                </span>
+              </div>
+
+              <div
+                class="bg-gradient-to-br from-mid to-dark text-white rounded-xl py-[0.9rem] px-[0.6rem] min-w-[68px] shadow-[0_4px_10px_rgba(0,0,0,0.2)] max-[400px]:min-w-[58px] max-[400px]:py-[0.7rem] max-[400px]:px-[0.4rem]"
+              >
+                <span
+                  id="cd-jam"
+                  class="block font-alegreya font-bold text-[1.8rem] leading-none max-[400px]:text-[1.4rem]"
+                >
+                  00
+                </span>
+
+                <span
+                  class="block text-[0.7rem] tracking-[0.06em] mt-1 opacity-85"
+                >
+                  Jam
+                </span>
+              </div>
+
+              <div
+                class="bg-gradient-to-br from-mid to-dark text-white rounded-xl py-[0.9rem] px-[0.6rem] min-w-[68px] shadow-[0_4px_10px_rgba(0,0,0,0.2)] max-[400px]:min-w-[58px] max-[400px]:py-[0.7rem] max-[400px]:px-[0.4rem]"
+              >
+                <span
+                  id="cd-menit"
+                  class="block font-alegreya font-bold text-[1.8rem] leading-none max-[400px]:text-[1.4rem]"
+                >
+                  00
+                </span>
+
+                <span
+                  class="block text-[0.7rem] tracking-[0.06em] mt-1 opacity-85"
+                >
+                  Menit
+                </span>
+              </div>
+
+              <div
+                class="bg-gradient-to-br from-mid to-dark text-white rounded-xl py-[0.9rem] px-[0.6rem] min-w-[68px] shadow-[0_4px_10px_rgba(0,0,0,0.2)] max-[400px]:min-w-[58px] max-[400px]:py-[0.7rem] max-[400px]:px-[0.4rem]"
+              >
+                <span
+                  id="cd-detik"
+                  class="block font-alegreya font-bold text-[1.8rem] leading-none max-[400px]:text-[1.4rem]"
+                >
+                  00
+                </span>
+
+                <span
+                  class="block text-[0.7rem] tracking-[0.06em] mt-1 opacity-85"
+                >
+                  Detik
+                </span>
+              </div>
+            </div>
+
+            <p id="cd-ket" class="font-alegreya italic text-mid text-[0.95rem]">
+              Menuju Hari Mepandes
+            </p>
+          </div>
+        </section>
 
         <p class="text-base text-[#444] leading-[1.6] my-2">
           Adapun putra-putri kami yang melaksanakan Upacara Mepandes adalah:
@@ -233,11 +388,15 @@
         </h3>
 
         <h3 class="text-base font-semibold text-black my-6 mb-2 font-alef">
-          I wayan Merta
+          I Wayan Merta
         </h3>
 
         <h3 class="text-base font-semibold text-black my-6 mb-2 font-alef">
           Alvin Taufik
+        </h3>
+
+        <h3 class="text-base font-semibold text-black my-6 mb-2 font-alef">
+          Ni Kadek Dina Wati
         </h3>
       </div>
 
@@ -277,164 +436,6 @@
           yang maha tinggi.
         </p>
       </div>
-
-      <!-- =====================================================
-         TANGGAL ACARA
-    ====================================================== -->
-      <section
-        id="tanggal-acara"
-        class="bg-cream py-12 px-6 opacity-0 translate-x-[50px] transition-all duration-[800ms] ease"
-        data-scroll="scroll-right"
-      >
-        <div class="max-w-[560px] mx-auto text-center">
-          <h2 class="font-bad text-[1.8rem] text-dark mb-3">
-            Tanggal &amp; Waktu Acara
-          </h2>
-
-          <div class="relative w-[90px] h-px bg-mid mx-auto mb-8">
-            <span
-              class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-mid text-[13px] px-2 bg-cream"
-            >
-              ✦
-            </span>
-          </div>
-
-          <!-- Acara -->
-          <div class="flex justify-center gap-6 flex-wrap mb-6">
-            <div
-              class="flex items-center gap-3 bg-white border border-light rounded-[14px] py-3 px-5 min-w-[190px]"
-            >
-              <span
-                data-target="12"
-                class="inline-block font-bad text-[2.2rem] text-mid leading-none opacity-0 scale-[0.7] transition-all duration-500"
-              >
-                0
-              </span>
-
-              <div class="text-left">
-                <p class="font-alegreya text-[0.85rem] text-dark">
-                  Oktober 2026
-                </p>
-
-                <p class="font-alegreya font-bold text-base text-dark">
-                  Mepandes
-                </p>
-              </div>
-            </div>
-
-            <div
-              class="flex items-center gap-3 bg-white border border-light rounded-[14px] py-3 px-5 min-w-[190px]"
-            >
-              <span
-                data-target="15"
-                class="inline-block font-bad text-[2.2rem] text-mid leading-none opacity-0 scale-[0.7] transition-all duration-500"
-              >
-                0
-              </span>
-
-              <div class="text-left">
-                <p class="font-alegreya text-[0.85rem] text-dark">
-                  Oktober 2026
-                </p>
-
-                <p class="font-alegreya font-bold text-base text-dark">
-                  Ngenteg Linggih
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Jam -->
-          <p
-            class="inline-flex items-center gap-2 font-alef text-base font-semibold tracking-[0.04em] text-dark bg-white border-[1.5px] border-light rounded-full py-[10px] px-[22px] shadow-[0_4px_12px_rgba(112,109,84,0.15)] mx-auto mb-8"
-          >
-            <i
-              class="bi bi-clock text-white bg-gradient-to-br from-mid to-dark w-[25px] h-[25px] inline-flex items-center justify-center rounded-full text-[0.9rem] animate-denyutJam"
-            ></i>
-
-            09.00 WITA – Selesai
-          </p>
-
-          <!-- Countdown -->
-          <div
-            id="countdown"
-            class="flex justify-center gap-3 flex-wrap mb-3 opacity-0 scale-[0.9] transition-all duration-[800ms] ease"
-            data-scroll="scroll-zoom"
-          >
-            <div
-              class="bg-gradient-to-br from-mid to-dark text-white rounded-xl py-[0.9rem] px-[0.6rem] min-w-[68px] shadow-[0_4px_10px_rgba(0,0,0,0.2)] max-[400px]:min-w-[58px] max-[400px]:py-[0.7rem] max-[400px]:px-[0.4rem]"
-            >
-              <span
-                id="cd-hari"
-                class="block font-alegreya font-bold text-[1.8rem] leading-none max-[400px]:text-[1.4rem]"
-              >
-                00
-              </span>
-
-              <span
-                class="block text-[0.7rem] tracking-[0.06em] mt-1 opacity-85"
-              >
-                Hari
-              </span>
-            </div>
-
-            <div
-              class="bg-gradient-to-br from-mid to-dark text-white rounded-xl py-[0.9rem] px-[0.6rem] min-w-[68px] shadow-[0_4px_10px_rgba(0,0,0,0.2)] max-[400px]:min-w-[58px] max-[400px]:py-[0.7rem] max-[400px]:px-[0.4rem]"
-            >
-              <span
-                id="cd-jam"
-                class="block font-alegreya font-bold text-[1.8rem] leading-none max-[400px]:text-[1.4rem]"
-              >
-                00
-              </span>
-
-              <span
-                class="block text-[0.7rem] tracking-[0.06em] mt-1 opacity-85"
-              >
-                Jam
-              </span>
-            </div>
-
-            <div
-              class="bg-gradient-to-br from-mid to-dark text-white rounded-xl py-[0.9rem] px-[0.6rem] min-w-[68px] shadow-[0_4px_10px_rgba(0,0,0,0.2)] max-[400px]:min-w-[58px] max-[400px]:py-[0.7rem] max-[400px]:px-[0.4rem]"
-            >
-              <span
-                id="cd-menit"
-                class="block font-alegreya font-bold text-[1.8rem] leading-none max-[400px]:text-[1.4rem]"
-              >
-                00
-              </span>
-
-              <span
-                class="block text-[0.7rem] tracking-[0.06em] mt-1 opacity-85"
-              >
-                Menit
-              </span>
-            </div>
-
-            <div
-              class="bg-gradient-to-br from-mid to-dark text-white rounded-xl py-[0.9rem] px-[0.6rem] min-w-[68px] shadow-[0_4px_10px_rgba(0,0,0,0.2)] max-[400px]:min-w-[58px] max-[400px]:py-[0.7rem] max-[400px]:px-[0.4rem]"
-            >
-              <span
-                id="cd-detik"
-                class="block font-alegreya font-bold text-[1.8rem] leading-none max-[400px]:text-[1.4rem]"
-              >
-                00
-              </span>
-
-              <span
-                class="block text-[0.7rem] tracking-[0.06em] mt-1 opacity-85"
-              >
-                Detik
-              </span>
-            </div>
-          </div>
-
-          <p id="cd-ket" class="font-alegreya italic text-mid text-[0.95rem]">
-            Menuju Hari Mepandes
-          </p>
-        </div>
-      </section>
 
       <!-- =====================================================
          LOKASI
@@ -525,7 +526,7 @@
         <p class="font-bold font-alef text-base text-[#444] my-[15px]">
           Kami yang berbahagia Kel.
           <br />
-          I Nengah Selamet, I wayan Muka Udiana
+          I Nengah Selamet, I Wayan Muka Udiana
           <br />
           &amp;
           <br />
